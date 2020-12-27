@@ -1,0 +1,41 @@
+.payment {
+    &__options {
+    }
+}
+.options {
+    margin-bottom: 60px;
+    &__title {
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    &__list {
+        padding: 30px;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    &__item {
+    }
+}
+.payment-gift {
+    padding-bottom: 90px;
+.payment__text-list{
+    flex: 0 0 100%;
+}
+}
+.fw-bold {
+}
+@media (min-width: 768px) {
+    .payment-gift {
+        .selected-advs__item {
+            margin-bottom: 10px;
+        }
+        .payment__important-title {
+            margin-left: 0;
+        }
+        .payment__selected-advs-title{
+            margin-left: 0;
+        }
+    }
+}

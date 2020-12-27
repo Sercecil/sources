@@ -1,0 +1,157 @@
+.payment {
+    padding-top: 60px;
+    padding-bottom: 140px;
+
+    &__way {
+        margin-bottom: 26px;
+    }
+
+    &__route {
+        margin-bottom: 60px;
+    }
+
+    &__selected-advs {
+    }
+    &__selected-advs-title {
+        margin: 0 0 13px 30px;
+    }
+    &__total {
+        padding: 25px 30px;
+        background-color: #fff;
+        margin-bottom: 50px;
+    }
+
+    &__total-item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__total-text {
+    }
+
+    &__total-price {
+    }
+
+    &__impotrant {
+        margin-bottom: 60px;
+    }
+
+    &__impotrant-conditions {
+    }
+
+    &__important-title {
+        margin: 0 0 25px 30px;
+    }
+
+    &__text-list {
+        background-color: #fff;
+        padding: 30px;
+    }
+
+    &__impotrant-data {
+        background-color: #fff;
+        padding: 30px;
+    }
+
+    &__data-title {
+        margin-bottom: 10px;
+        max-width: 65%;
+    }
+
+    &__data-list {
+        :not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__data-item {
+    }
+
+    &__back {
+        font-size: 18px;
+    }
+}
+
+.selected-advs {
+    &__item {
+        padding: 25px 25px 25px 30px;
+        margin-bottom: 40px;
+        background-color: #f0f0f0;
+        :not(:last-child) {
+            margin-bottom: 13px;
+        }
+    }
+
+    &__model {
+        max-width: 80%;
+    }
+
+    &__number {
+    }
+
+    &__cost {
+    }
+
+    &__del {
+        text-decoration: underline;
+        padding-left: 11px;
+        position: relative;
+        &::before {
+            content: "X";
+            position: absolute;
+            left: 0;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .payment__impotrant{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .payment__data-title{
+        max-width: none;
+    }
+    .payment__impotrant-conditions{
+        flex: 0 0 55%;
+    }
+    .payment__impotrant-data{
+        flex: 0 0 40%;
+    }
+    .payment__important{
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    .payment__way{
+        margin-bottom: 50px;
+    }
+    .selected-advs__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .selected-advs__item{
+        :not(:last-child){
+        margin-bottom: 0;
+        }
+    }
+    .payment__data-title {
+        max-width: 80%;
+    }
+    .payment__impotrant-conditions{
+        flex: 0 0 58%;
+    }
+    .payment__impotrant-data{
+        flex: 0 0 35%;
+    }
+}
+
+@media (min-width: 804px) {
+    .payment{
+        max-width: 804px;
+        margin: 0 auto;
+    }
+}

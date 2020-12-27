@@ -1,0 +1,16 @@
+.tab__item {
+	display: none;
+	&.active {
+		display: block;
+	}
+}
+._tabs {
+}
+._tabs-item {
+}
+._tabs-block {
+	display: none;
+	&._active {
+		display: block;
+	}
+}

@@ -1,0 +1,50 @@
+.accepted {
+    padding: 70px 27px 53px;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__ico-wrapper {
+        margin-bottom: 50px;
+    }
+
+    &__ico {
+    }
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        color: #afacac;
+        margin-bottom: 50px;
+    }
+
+    &__email {
+    }
+
+    &__queue {
+        margin-bottom: 10px;
+    }
+
+    &__expectations {
+        color: #afacac;
+        margin-bottom: 50px;
+    }
+
+    &__number {
+    }
+
+    &__btn {
+        padding: 8px 82px;
+        margin-bottom: 50px;
+    }
+}
+.question-title {
+    margin-bottom: 10px;
+}
+.question-subtitle {
+    color: #afacac;
+    margin-bottom: 28px;
+}
+
